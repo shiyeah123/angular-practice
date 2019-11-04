@@ -3,20 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ReactiveFromComponent } from './reactive-from/reactive-from.component';
 import { NgZorroAntdModule, NZ_I18N, zh_CN } from 'ng-zorro-antd';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
+import { ValidateFormComponent } from './validate-form/validate-form.component';
 
 registerLocaleData(zh);
 
 @NgModule({
    declarations: [
       AppComponent,
-      ReactiveFromComponent
+      ValidateFormComponent
    ],
    imports: [
       BrowserModule,
