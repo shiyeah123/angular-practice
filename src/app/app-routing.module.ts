@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ValidateFormComponent } from './validate-form/validate-form.component';
 import { LoginFormComponent } from './login-from/login-from.component';
 import { AppComponent } from './app.component';
-import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
+import { PageNotFoundComponent } from './pageNotFound/pageNotFound.component';
 
 
 const routes: Routes = [

@@ -11,7 +11,7 @@ import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import { ValidateFormComponent } from './validate-form/validate-form.component';
 import { LoginFormComponent } from './login-from/login-from.component';
-import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
+import { PageNotFoundComponent } from './pageNotFound/pageNotFound.component';
 
 registerLocaleData(zh);
 
@@ -20,7 +20,7 @@ registerLocaleData(zh);
       AppComponent,
       ValidateFormComponent,
       LoginFormComponent,
-      PageNotFoundComponent,
+      PageNotFoundComponent
 
    ],
    imports: [
